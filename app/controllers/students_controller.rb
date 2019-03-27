@@ -3,7 +3,6 @@ class StudentsController < ApplicationController
 
   def index
     @students = Student.all
-    set_student
   end
 
   def show
